@@ -9,7 +9,7 @@ class Train
   attr_accessor :carriage, :speed, :station, :route, :type, :carriages
   attr_reader :number
 
-  @@trains = { |variable|  }
+  @@trains = {}
 
   def initialize(number, speed = 0)
     @number = number
